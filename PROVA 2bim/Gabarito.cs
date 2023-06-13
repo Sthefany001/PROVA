@@ -25,97 +25,110 @@ namespace PROVA_2bim
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string acertos = "";
+            int acertos = 0;
 
             string[] gab = {"A", "B", "D", "E", "C", "A", "A", "D", "E", "B", "a", "b", "d", "e", "c", "a", "a", "d", "e", "b"};
+            
+            try
+            {
+                if (textBox1.Text == gab[0])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox2.Text == gab[1])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox3.Text == gab[2])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox4.Text == gab[3])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox5.Text == gab[4])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox6.Text == gab[5])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox7.Text == gab[6])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox8.Text == gab[7])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox9.Text == gab[8])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox10.Text == gab[9])
+                {
+                    acertos = acertos + 1;
+                }
+                if (textBox1.Text == gab[10])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox2.Text == gab[11])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox3.Text == gab[12])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox4.Text == gab[13])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox5.Text == gab[14])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox6.Text == gab[15])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox7.Text == gab[16])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox8.Text == gab[17])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox9.Text == gab[18])
+                {
+                    acertos = acertos + 1;
+                }
+                else if (textBox10.Text == gab[19])
+                {
+                    acertos = acertos + 1;
+                }
+                else
+                {
+                    acertos = acertos + 0;
+                }
+                MessageBox.Show($"ACERTOS = {acertos.ToString()}");
 
-            if (textBox1.Text == gab[0])
-            {
-                acertos = acertos + 1;
+                label1.Text = acertos.ToString();
             }
-            else if(textBox2.Text == gab[1])
+            catch (Exception ex)
             {
-                acertos = acertos + 1;
+                MessageBox.Show($"ERRO!{ex.Message}");
             }
-            else if (textBox3.Text == gab[2])
+            finally
             {
-                acertos = acertos + 1;
+                //MessageBox.Show("Obrigada por usar meu programa!");
             }
-            else if (textBox4.Text == gab[3])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox5.Text == gab[4])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox6.Text == gab[5])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox7.Text == gab[6])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox8.Text == gab[7])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox9.Text == gab[8])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox10.Text == gab[9])
-            {
-                acertos = acertos + 1;
-            }
-            if (textBox1.Text == gab[10])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox2.Text == gab[11])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox3.Text == gab[12])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox4.Text == gab[13])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox5.Text == gab[14])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox6.Text == gab[15])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox7.Text == gab[16])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox8.Text == gab[17])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox9.Text == gab[18])
-            {
-                acertos = acertos + 1;
-            }
-            else if (textBox10.Text == gab[19])
-            {
-                acertos = acertos + 1;
-            }
-            else
-            {
-                acertos = acertos + 0;
-            }
-            MessageBox.Show(acertos);
-       
-            label1.Text = acertos.ToString();
+
+           
         }
     }
 }
