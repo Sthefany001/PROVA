@@ -1,0 +1,12 @@
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\bin\Debug\PROVA 2bim.exe.config
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\bin\Debug\PROVA 2bim.exe
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\bin\Debug\PROVA 2bim.pdb
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\obj\Debug\PROVA 2bim.csproj.AssemblyReference.cache
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\obj\Debug\PROVA 2bim.csproj.SuggestedBindingRedirects.cache
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\obj\Debug\PROVA_2bim.Menu.resources
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\obj\Debug\PROVA_2bim.Properties.Resources.resources
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\obj\Debug\PROVA 2bim.csproj.GenerateResource.cache
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\obj\Debug\PROVA 2bim.csproj.CoreCompileInputs.cache
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\obj\Debug\PROVA 2bim.exe
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\obj\Debug\PROVA 2bim.pdb
+C:\Users\2022102020014\Desktop\L. Programação (Elias)\2bim\PROVA 2bim\PROVA 2bim\obj\Debug\PROVA_2bim.Gabarito.resources
