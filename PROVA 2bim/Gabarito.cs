@@ -16,6 +16,7 @@ namespace PROVA_2bim
         {
             InitializeComponent();
             label1.Text = "";
+            label2.Text = "";
         }
 
         private void Gabarito_Load(object sender, EventArgs e)
@@ -89,16 +90,22 @@ namespace PROVA_2bim
 
                 //MessageBox.Show($"ACERTOS = {acertos.ToString()}");
 
-                label1.Text = acertos.ToString();
+                label1.Text = "Acertos = " + acertos.ToString();
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                //MessageBox.Show(ex.Message);
+                label2.Text = "Erro!" + ex.Message;
             }
             finally
             {
                 //MessageBox.Show("Obrigada por usar meu programa!");
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
