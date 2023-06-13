@@ -26,56 +26,63 @@ namespace PROVA_2bim
         private void button1_Click(object sender, EventArgs e)
         {
             int acertos = 0;
-
             string[] gab = {"A", "B", "D", "E", "C", "A", "A", "D", "E", "B"};                    
 
             try
-            {
+            {             
+
                 if (textBox1.Text.ToUpper() == gab[0])
                 {
                     acertos = acertos + 1;
                 }
-                else if (textBox2.Text.ToUpper() == gab[1])
+
+                if (textBox2.Text.ToUpper() == gab[1])
+                {
+                    acertos = acertos + 1;           
+                }
+                
+                if (textBox3.Text.ToUpper() == gab[2])
                 {
                     acertos = acertos + 1;
                 }
-                else if (textBox3.Text.ToUpper() == gab[2])
+                
+                if (textBox4.Text.ToUpper() == gab[3])
                 {
                     acertos = acertos + 1;
                 }
-                else if (textBox4.Text.ToUpper() == gab[3])
+                
+                if (textBox5.Text.ToUpper() == gab[4])
                 {
                     acertos = acertos + 1;
                 }
-                else if (textBox5.Text.ToUpper() == gab[4])
+                
+                if (textBox6.Text.ToUpper() == gab[5])
                 {
                     acertos = acertos + 1;
                 }
-                else if (textBox6.Text.ToUpper() == gab[5])
+                
+                if (textBox7.Text.ToUpper() == gab[6])
                 {
                     acertos = acertos + 1;
                 }
-                else if (textBox7.Text.ToUpper() == gab[6])
+                
+                if (textBox8.Text.ToUpper() == gab[7])
                 {
                     acertos = acertos + 1;
                 }
-                else if (textBox8.Text.ToUpper() == gab[7])
+                
+                if (textBox9.Text.ToUpper() == gab[8])
                 {
                     acertos = acertos + 1;
                 }
-                else if (textBox9.Text.ToUpper() == gab[8])
+                
+                if (textBox10.Text.ToUpper() == gab[9])
                 {
                     acertos = acertos + 1;
                 }
-                else if (textBox10.Text.ToUpper() == gab[9])
-                {
-                    acertos = acertos + 1;
-                }
-                else
-                {
-                    acertos = acertos + 0;
-                }
-                MessageBox.Show($"ACERTOS = {acertos.ToString()}");
+                
+                
+                //MessageBox.Show($"ACERTOS = {acertos.ToString()}");
 
                 label1.Text = acertos.ToString();
             }
